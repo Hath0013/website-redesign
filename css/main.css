@@ -1,0 +1,151 @@
+html {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg {
+  background: rgba(39,62,84,0.82);
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 75px;
+  padding-top: 150px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: -25px;
+  color: #eaeaea;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 50px;
+  padding-bottom: 20px;
+  color: #28bff0;
+}
+
+.projects {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+.project {
+    background: url(../img/box.jpg) 0 0 no-repeat;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    overflow: hidden;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 5px;
+ }
+
+.row {
+    background: rgba(39,62,84,0.82);
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    z-index: 2;
+    position: relative;
+}
+
+.row:hover {
+  background: rgba(0, 0, 0, 0);
+  transition: all .5s;
+  cursor: pointer;
+}
+
+.caption {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  transform: translate(-50%);
+  padding: .75rem;
+  background-color: rgba(40, 190, 240, 0.5);
+  width: 300px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.caption p {
+  font-weight: 200;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.summary {
+  background: rgba(40, 190, 240, 0.7);
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 300;
+}
+
+.summary p {
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 18px;
+}
+
+.circle {
+  background-color: rgba(39,62,84,0.82);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+}
+
+.circle:hover {
+  background-color: rgba(39,62,84,0.99);
+  transition: all .2s;
+}
+
+i {
+  color: #28bff0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+}
+
+
+.footer {
+  background: rgba(39,62,84,0.82);
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  padding: 1rem;
+  font-weight: 200;
+  color: #eaeaea;
+}
